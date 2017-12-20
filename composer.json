@@ -1,8 +1,8 @@
 {
-    "name": "phpoffice/phpexcel",
-    "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
-    "keywords": ["PHP","Excel","OpenXML","xlsx","xls","spreadsheet"],
-    "homepage": "https://github.com/PHPOffice/PHPExcel",
+    "name": "mobiledevpro/phpexcelreader",
+    "description": "Read Spreadsheet documents in PHP - Spreadsheet engine",
+    "keywords": ["PHP","Excel","MobileDev Pro","xlsx","xls","spreadsheet"],
+    "homepage": "https://github.com/MobileDev-pro/PHPExcelReader",
     "type": "library",
     "license": "LGPL-2.1",
     "authors": [
@@ -20,10 +20,14 @@
         },
         {
             "name": "Erik Tilt"
+        },
+        {
+            "name": "David Verdier",
+            "homepage": "https://actionchasse.fr"
         }
     ],
     "require": {
-        "php": "^5.2|^7.0",
+        "php": "^7.0",
         "ext-mbstring": "*",
         "ext-xml": "*",
         "ext-xmlwriter": "*"
@@ -37,7 +41,7 @@
     },
     "autoload": {
         "psr-0": {
-            "PHPExcel": "Classes/"
+            "MDExcel": "Classes/"
         }
     }
 }
